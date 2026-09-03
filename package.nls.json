@@ -1,0 +1,7 @@
+{
+  "extension.displayName": "Folder Backup",
+  "extension.description": "Adds context-menu commands to back up a folder as a full copy or a compressed ZIP archive.",
+  "command.category": "Folder Backup",
+  "command.backup.title": "Back up this folder now",
+  "command.backupCompressed.title": "Back up & compress this folder now"
+}

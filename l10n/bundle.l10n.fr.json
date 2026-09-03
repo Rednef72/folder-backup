@@ -1,0 +1,13 @@
+{
+  "Folder Backup: select a folder in the VS Code Explorer.": "Folder Backup : sélectionnez un dossier dans l’explorateur VS Code.",
+  "Folder Backup: the selected resource is not a folder.": "Folder Backup : la ressource sélectionnée n’est pas un dossier.",
+  "Backing up “{0}”": "Sauvegarde de « {0} »",
+  "Copying the folder and its contents…": "Copie du dossier et de son contenu…",
+  "Backup completed: {0}": "Sauvegarde terminée : {0}",
+  "Show in system explorer": "Afficher dans l’explorateur système",
+  "Folder Backup: backup failed. {0}": "Folder Backup : échec de la sauvegarde. {0}",
+  "Backing up and compressing “{0}”": "Sauvegarde et compression de « {0} »",
+  "Compressing {0} of {1}: {2}": "Compression de l’élément {0} sur {1} : {2}",
+  "Compressed backup completed: {0}": "Sauvegarde compressée terminée : {0}",
+  "Folder Backup: compressed backup failed. {0}": "Folder Backup : échec de la sauvegarde compressée. {0}"
+}

@@ -1,0 +1,7 @@
+{
+  "extension.displayName": "Folder Backup",
+  "extension.description": "Ajoute des commandes contextuelles permettant de sauvegarder un dossier sous forme de copie complète ou d’archive ZIP compressée.",
+  "command.category": "Folder Backup",
+  "command.backup.title": "Sauvegarder ce dossier maintenant",
+  "command.backupCompressed.title": "Sauvegarder et compresser ce dossier maintenant"
+}

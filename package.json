@@ -1,0 +1,69 @@
+{
+  "name": "folder-backup",
+  "displayName": "%extension.displayName%",
+  "description": "%extension.description%",
+  "version": "1.0.1",
+  "publisher": "rednef",
+  "author": {
+    "name": "Aurélien Chevreux"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rednef72/folder-backup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rednef72/folder-backup/issues"
+  },
+  "homepage": "https://github.com/Rednef72/folder-backup#readme",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "backup",
+    "folder",
+    "directory",
+    "sauvegarde",
+    "zip",
+    "compress",
+    "archive"
+  ],
+  "activationEvents": [
+    "onCommand:folderBackup.backupFolder",
+    "onCommand:folderBackup.backupAndCompressFolder"
+  ],
+  "main": "./extension.js",
+  "l10n": "./l10n",
+  "contributes": {
+    "commands": [
+      {
+        "command": "folderBackup.backupFolder",
+        "title": "%command.backup.title%",
+        "category": "%command.category%"
+      },
+      {
+        "command": "folderBackup.backupAndCompressFolder",
+        "title": "%command.backupCompressed.title%",
+        "category": "%command.category%"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "folderBackup.backupFolder",
+          "when": "explorerResourceIsFolder",
+          "group": "navigation@100"
+        },
+        {
+          "command": "folderBackup.backupAndCompressFolder",
+          "when": "explorerResourceIsFolder",
+          "group": "navigation@101"
+        }
+      ]
+    }
+  }
+}
